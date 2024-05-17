@@ -60,6 +60,13 @@ header .navigation li a {
   font-size: 19px;
   margin-left: 100px;
 }
+
+header .navigation li a:hover{
+  transform: translateY(-10px);
+  transition: 0.3s ease-in-out;
+}
+
+
 .container{
   position: relative;
   display: flex;
